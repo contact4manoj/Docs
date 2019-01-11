@@ -54,7 +54,7 @@ These instructions use *qrcode.js* from the https://davidshimjs.github.io/qrcode
 
 ```cshtml
 @section Scripts {
-    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <partial name="_ValidationScriptsPartial" />
 
     <script type="text/javascript" src="~/lib/qrcode.js"></script>
     <script type="text/javascript">
